@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo de fondo azul -->
+  <circle cx="256" cy="256" r="256" fill="#2eb5ff" />
+  
+  <!-- Grupo de destellos blancos -->
+  <g fill="#FFFFFF">
+    <!-- Destello principal (centro-abajo) -->
+    <path d="M 270,140 
+             Q 270,270 400,270 
+             Q 270,270 270,400 
+             Q 270,270 140,270 
+             Q 270,270 270,140 Z" />
+             
+    <!-- Destello superior izquierdo (mediano) -->
+    <path d="M 160,110 
+             Q 160,165 215,165 
+             Q 160,165 160,220 
+             Q 160,165 105,165 
+             Q 160,165 160,110 Z" />
+             
+    <!-- Destello superior derecho (pequeño) -->
+    <path d="M 345,150 
+             Q 345,185 380,185 
+             Q 345,185 345,220 
+             Q 345,185 310,185 
+             Q 345,185 345,150 Z" />
+  </g>
+</svg>
